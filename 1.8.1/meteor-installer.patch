@@ -38,7 +38,7 @@
  
 -  curl $VERBOSITY --fail --continue-at - \
 -    "$TARBALL_URL" --output "$TARBALL_FILE"
-+INSTALLER_TARBALL=$(mktemp)
++INSTALLER_TARBALL="$(mktemp -d)/meteor-bootstrap-${PLATFORM}-${RELEASE}.tar.gz"
 +eval curl -L --progress-bar --fail "${TARBALL_URL_OVERRIDE:-$TARBALL_URL}" > $INSTALLER_TARBALL
 +# If we got passed an explicit version, then we also expect
 +# to be passed that version's checksums.

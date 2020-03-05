@@ -15,7 +15,8 @@ sed -e "s/^RELEASE=.*/RELEASE=\"$RELEASE\"/" ${DOWNLOAD_DIR}/installer-${RELEASE
 shasum -a 256 ${DOWNLOAD_DIR}/installer-${RELEASE}.sh
 
 for PLATFORM in os.linux.x86_32 os.linux.x86_64; do
-  TARBALL_URL=https://d3sqy0vbqsdhku.cloudfront.net/packages-bootstrap/${RELEASE}/meteor-bootstrap-${PLATFORM}.tar.gz
+  #TARBALL_URL=https://d3sqy0vbqsdhku.cloudfront.net/packages-bootstrap/${RELEASE}/meteor-bootstrap-${PLATFORM}.tar.gz
+  TARBALL_URL=https://static-meteor.netdna-ssl.com/packages-bootstrap/${RELEASE}/meteor-bootstrap-${PLATFORM}.tar.gz
   curl -SL ${TARBALL_URL} -o ${DOWNLOAD_DIR}/meteor-bootstrap-${PLATFORM}-${RELEASE}.tar.gz
   shasum -a 256 ${DOWNLOAD_DIR}/meteor-bootstrap-${PLATFORM}-${RELEASE}.tar.gz
 done
