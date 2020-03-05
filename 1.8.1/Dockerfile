@@ -12,7 +12,8 @@ ENV METEOR_LINUX_X86_64_SHA256 8691816f157f97f10ea7070f72faa3d5f55e6ffe462576e4f
 
 COPY meteor-installer.patch /tmp/meteor/meteor-installer.patch
 COPY vboxsf-shim.sh /usr/local/bin/vboxsf-shim
-RUN curl -SL https://install.meteor.com/ -o /tmp/meteor/inst \
+RUN mkdir -p /tmp/meteor \
+    && curl -SL https://install.meteor.com/ -o /tmp/meteor/inst \
     && sed -e "s/^RELEASE=.*/RELEASE=\"$METEOR_VERSION\"/" /tmp/meteor/inst > /tmp/meteor/inst-canonical \
     && echo $METEOR_INSTALLER_SHA256 /tmp/meteor/inst-canonical | sha256sum -c \
     && patch /tmp/meteor/inst /tmp/meteor/meteor-installer.patch \
