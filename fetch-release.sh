@@ -10,7 +10,8 @@ DOWNLOAD_DIR=$(mktemp -d -t meteor-tarballs)
 
 echo Downloading Meteor ${RELEASE} and placing in ${DOWNLOAD_DIR}
 
-curl -SL https://install.meteor.com/ -o ${DOWNLOAD_DIR}/installer-${RELEASE}.sh
+curl -SL https://install.meteor.com/ -o ${DOWNLOAD_DIR}/installer-${RELEASE}-original.sh
+sed -e "s/^RELEASE=.*/RELEASE=\"$RELEASE\"/" ${DOWNLOAD_DIR}/installer-${RELEASE}-original.sh > ${DOWNLOAD_DIR}/installer-${RELEASE}.sh
 shasum -a 256 ${DOWNLOAD_DIR}/installer-${RELEASE}.sh
 
 for PLATFORM in os.linux.x86_32 os.linux.x86_64; do

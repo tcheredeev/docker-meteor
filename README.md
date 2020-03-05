@@ -1,28 +1,29 @@
 # Supported tags and respective `Dockerfile` links
 
-- [`latest` (*latest/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/latest/Dockerfile)
-- [`onbuild` (*onbuild/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/onbuild/Dockerfile)
-- [`1.1.0.2`, `1` (*1.1.0.2/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.1.0.2/Dockerfile)
-- [`1.1.0.2-onbuild`, `1-onbuild` (*1.1.0.2-onbuild/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.1.0.2-onbuild/Dockerfile)
-- [`1.1.0.1`, (*1.1.0.1/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.1.0.1/Dockerfile)
-- [`1.1.0.1-onbuild`, (*1.1.0.1-onbuild/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.1.0.1-onbuild/Dockerfile)
-- [`1.1`, (*1.1/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.1/Dockerfile)
-- [`1.1-onbuild`, (*1.1-onbuild/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.1-onbuild/Dockerfile)
-- [`1.0.5`, `1.0`, (*1.0.5/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.5/Dockerfile)
-- [`1.0.5-onbuild`, `1.0-onbuild`, (*1.0.5-onbuild/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.5-onbuild/Dockerfile)
-- [`1.0.4.2`, (*1.0.4.2/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.4.2/Dockerfile)
-- [`1.0.4.2-onbuild`, (*1.0.4.2-onbuild/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.4.2-onbuild/Dockerfile)
-- [`1.0.4.1`, (*1.0.4.1/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.4.1/Dockerfile)
-- [`1.0.4.1-onbuild`, (*1.0.4.1-onbuild/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.4.1-onbuild/Dockerfile)
-- [`1.0.4`, (*1.0.4/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.4/Dockerfile)
-- [`1.0.4-onbuild`, (*1.0.4-onbuild/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.4-onbuild/Dockerfile)
-- [`1.0.3.2`, (*1.0.3.2/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.3.2/Dockerfile)
-- [`1.0.3.2-onbuild`,  (*1.0.3.2-onbuild/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.3.2-onbuild/Dockerfile)
-- [`1.0.3.1`, (*1.0.3.1/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.3.1/Dockerfile)
-- [`1.0.3.1-onbuild`, (*1.0.3.1-onbuild/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.3.1-onbuild/Dockerfile)
-- [`1.0.2.1`, (*1.0.2.1/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.2.1/Dockerfile)
-- [`1.0.2`, (*1.0.2/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.2/Dockerfile)
-- [`1.0.1`, (*1.0.1/Dockerfile*)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.1/Dockerfile)
+-   [`latest` (_latest/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/latest/Dockerfile)
+-   [`onbuild` (_onbuild/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/onbuild/Dockerfile)
+-   [`1.8.1`, `1` (_1.8.1/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.8.1/Dockerfile)
+-   [`1.1.0.2`, `1` (_1.1.0.2/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.1.0.2/Dockerfile)
+-   [`1.1.0.2-onbuild`, `1-onbuild` (_1.1.0.2-onbuild/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.1.0.2-onbuild/Dockerfile)
+-   [`1.1.0.1`, (_1.1.0.1/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.1.0.1/Dockerfile)
+-   [`1.1.0.1-onbuild`, (_1.1.0.1-onbuild/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.1.0.1-onbuild/Dockerfile)
+-   [`1.1`, (_1.1/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.1/Dockerfile)
+-   [`1.1-onbuild`, (_1.1-onbuild/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.1-onbuild/Dockerfile)
+-   [`1.0.5`, `1.0`, (_1.0.5/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.5/Dockerfile)
+-   [`1.0.5-onbuild`, `1.0-onbuild`, (_1.0.5-onbuild/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.5-onbuild/Dockerfile)
+-   [`1.0.4.2`, (_1.0.4.2/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.4.2/Dockerfile)
+-   [`1.0.4.2-onbuild`, (_1.0.4.2-onbuild/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.4.2-onbuild/Dockerfile)
+-   [`1.0.4.1`, (_1.0.4.1/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.4.1/Dockerfile)
+-   [`1.0.4.1-onbuild`, (_1.0.4.1-onbuild/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.4.1-onbuild/Dockerfile)
+-   [`1.0.4`, (_1.0.4/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.4/Dockerfile)
+-   [`1.0.4-onbuild`, (_1.0.4-onbuild/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.4-onbuild/Dockerfile)
+-   [`1.0.3.2`, (_1.0.3.2/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.3.2/Dockerfile)
+-   [`1.0.3.2-onbuild`, (_1.0.3.2-onbuild/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.3.2-onbuild/Dockerfile)
+-   [`1.0.3.1`, (_1.0.3.1/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.3.1/Dockerfile)
+-   [`1.0.3.1-onbuild`, (_1.0.3.1-onbuild/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.3.1-onbuild/Dockerfile)
+-   [`1.0.2.1`, (_1.0.2.1/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.2.1/Dockerfile)
+-   [`1.0.2`, (_1.0.2/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.2/Dockerfile)
+-   [`1.0.1`, (_1.0.1/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.1/Dockerfile)
 
 # What is Meteor?
 
@@ -30,9 +31,9 @@
 
 With Meteor you write apps:
 
-* in pure JavaScript
-* that send data over the wire, rather than HTML
-* using your choice of popular open-source libraries
+-   in pure JavaScript
+-   that send data over the wire, rather than HTML
+-   using your choice of popular open-source libraries
 
 Documentation is available at [http://docs.meteor.com/](http://docs.meteor.com/).
 
@@ -47,10 +48,10 @@ The patch has not been merged upstream and demeteorizer is not required with the
 
 # Why use these images?
 
-* To install a packaged, specific version of Meteor.
-* To Dockerize a Meteor app for your Continuous Integration/Continuous Delivery/Production environments.
-* To have a repeatable and easily maintained development environment.
-* To do Meteor development on Windows (using boot2docker).
+-   To install a packaged, specific version of Meteor.
+-   To Dockerize a Meteor app for your Continuous Integration/Continuous Delivery/Production environments.
+-   To have a repeatable and easily maintained development environment.
+-   To do Meteor development on Windows (using boot2docker).
 
 The `latest` tag builds whatever Meteor publishes at [https://install.meteor.com/](https://install.meteor.com/), as long
 as the install script does not change. Images tagged for a specific Meteor version checksum both the installer and the
@@ -72,7 +73,7 @@ tarball the installer downloads.
 volumes, which are not compatible with either [MongoDB](http://www.mongodb.org/) or Meteor's development server.
 
 A small shim is included which re-maps the `.meteor/local` folder back into the virtual machine, and
-enables Meteor to work under boot2docker.  Add `vboxsf-shim` before any `meteor` command that requires its use.
+enables Meteor to work under boot2docker. Add `vboxsf-shim` before any `meteor` command that requires its use.
 Using the shim requires the container be allowed the SYS_ADMIN capability.
 
     docker run --cap-add SYS_ADMIN -it --rm -p 3000:3000 -v "$(pwd)":/app danieldent/meteor vboxsf-shim meteor
@@ -110,8 +111,8 @@ By default, your Meteor app will run as `nobody` within the Docker container. Th
 write access to its own files, which could help reduce the impact of certain security issues. It also makes it harder to
 accidentally write code which makes changes to the filesystem. Port 3000 will be exposed by default. Here's a
 `Dockerfile` which changes the defaults. It usually shouldn't be necessary to change the port on which your Meteor app
-listens - Docker's port mapping features allows the port used *inside* the container to be different than the port
-which is exposed *outside* the container.
+listens - Docker's port mapping features allows the port used _inside_ the container to be different than the port
+which is exposed _outside_ the container.
 
     FROM danieldent/meteor:onbuild
     EXPOSE 4000
