@@ -6,7 +6,7 @@
 [ "$#" -ne 1 ] && echo Usage: $0 METEOR_VERSION && exit 1
 
 RELEASE=$1
-DOWNLOAD_DIR=$(mktemp -d -t meteor-tarballs)
+DOWNLOAD_DIR=$(mktemp -d -t meteor-tarballs.XXXXXX)
 
 echo Downloading Meteor ${RELEASE} and placing in ${DOWNLOAD_DIR}
 
