@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:8
 MAINTAINER Igor Tcheredeev (https://voidozer.ru/)
 
 ENV METEOR_VERSION 1.8.1
