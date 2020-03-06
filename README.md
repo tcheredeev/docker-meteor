@@ -131,6 +131,7 @@ Please file a pull request or create a new issue for problems or potential impro
 # License
 
 Copyright 2014-2015 [Daniel Dent](https://www.danieldent.com/).
+
 Copyright 2020 [Igor Tcheredeev](https://voidozer.ru/).
 
 Licensed under the Apache License, Version 2.0 (the "License");
