@@ -8,3 +8,4 @@ if ! [ -d /tmp/meteor-local ]; then
 fi
 
 exec "$@"
+

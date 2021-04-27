@@ -1,29 +1,29 @@
 # Supported tags and respective `Dockerfile` links
 
--   [`latest` (_latest/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/latest/Dockerfile)
--   [`onbuild` (_onbuild/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/onbuild/Dockerfile)
--   [`1.8.1`, `1` (_1.8.1/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.8.1/Dockerfile)
--   [`1.1.0.2`, `1` (_1.1.0.2/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.1.0.2/Dockerfile)
--   [`1.1.0.2-onbuild`, `1-onbuild` (_1.1.0.2-onbuild/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.1.0.2-onbuild/Dockerfile)
--   [`1.1.0.1`, (_1.1.0.1/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.1.0.1/Dockerfile)
--   [`1.1.0.1-onbuild`, (_1.1.0.1-onbuild/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.1.0.1-onbuild/Dockerfile)
--   [`1.1`, (_1.1/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.1/Dockerfile)
--   [`1.1-onbuild`, (_1.1-onbuild/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.1-onbuild/Dockerfile)
--   [`1.0.5`, `1.0`, (_1.0.5/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.5/Dockerfile)
--   [`1.0.5-onbuild`, `1.0-onbuild`, (_1.0.5-onbuild/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.5-onbuild/Dockerfile)
--   [`1.0.4.2`, (_1.0.4.2/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.4.2/Dockerfile)
--   [`1.0.4.2-onbuild`, (_1.0.4.2-onbuild/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.4.2-onbuild/Dockerfile)
--   [`1.0.4.1`, (_1.0.4.1/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.4.1/Dockerfile)
--   [`1.0.4.1-onbuild`, (_1.0.4.1-onbuild/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.4.1-onbuild/Dockerfile)
--   [`1.0.4`, (_1.0.4/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.4/Dockerfile)
--   [`1.0.4-onbuild`, (_1.0.4-onbuild/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.4-onbuild/Dockerfile)
--   [`1.0.3.2`, (_1.0.3.2/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.3.2/Dockerfile)
--   [`1.0.3.2-onbuild`, (_1.0.3.2-onbuild/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.3.2-onbuild/Dockerfile)
--   [`1.0.3.1`, (_1.0.3.1/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.3.1/Dockerfile)
--   [`1.0.3.1-onbuild`, (_1.0.3.1-onbuild/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.3.1-onbuild/Dockerfile)
--   [`1.0.2.1`, (_1.0.2.1/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.2.1/Dockerfile)
--   [`1.0.2`, (_1.0.2/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.2/Dockerfile)
--   [`1.0.1`, (_1.0.1/Dockerfile_)](https://github.com/DanielDent/docker-meteor/blob/master/1.0.1/Dockerfile)
+-   [`latest` (_latest/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/latest/Dockerfile)
+-   [`[NOT READY] onbuild` (_onbuild/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/onbuild/Dockerfile)
+-   [`1.8.1`, `1` (_1.8.1/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.8.1/Dockerfile)
+-   [`1.1.0.2`, `1` (_1.1.0.2/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.1.0.2/Dockerfile)
+-   [`1.1.0.2-onbuild`, `1-onbuild` (_1.1.0.2-onbuild/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.1.0.2-onbuild/Dockerfile)
+-   [`1.1.0.1`, (_1.1.0.1/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.1.0.1/Dockerfile)
+-   [`1.1.0.1-onbuild`, (_1.1.0.1-onbuild/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.1.0.1-onbuild/Dockerfile)
+-   [`1.1`, (_1.1/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.1/Dockerfile)
+-   [`1.1-onbuild`, (_1.1-onbuild/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.1-onbuild/Dockerfile)
+-   [`1.0.5`, `1.0`, (_1.0.5/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.0.5/Dockerfile)
+-   [`1.0.5-onbuild`, `1.0-onbuild`, (_1.0.5-onbuild/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.0.5-onbuild/Dockerfile)
+-   [`1.0.4.2`, (_1.0.4.2/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.0.4.2/Dockerfile)
+-   [`1.0.4.2-onbuild`, (_1.0.4.2-onbuild/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.0.4.2-onbuild/Dockerfile)
+-   [`1.0.4.1`, (_1.0.4.1/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.0.4.1/Dockerfile)
+-   [`1.0.4.1-onbuild`, (_1.0.4.1-onbuild/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.0.4.1-onbuild/Dockerfile)
+-   [`1.0.4`, (_1.0.4/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.0.4/Dockerfile)
+-   [`1.0.4-onbuild`, (_1.0.4-onbuild/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.0.4-onbuild/Dockerfile)
+-   [`1.0.3.2`, (_1.0.3.2/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.0.3.2/Dockerfile)
+-   [`1.0.3.2-onbuild`, (_1.0.3.2-onbuild/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.0.3.2-onbuild/Dockerfile)
+-   [`1.0.3.1`, (_1.0.3.1/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.0.3.1/Dockerfile)
+-   [`1.0.3.1-onbuild`, (_1.0.3.1-onbuild/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.0.3.1-onbuild/Dockerfile)
+-   [`1.0.2.1`, (_1.0.2.1/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.0.2.1/Dockerfile)
+-   [`1.0.2`, (_1.0.2/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.0.2/Dockerfile)
+-   [`1.0.1`, (_1.0.1/Dockerfile_)](https://github.com/tcheredeev/docker-meteor/blob/master/1.0.1/Dockerfile)
 
 # What is Meteor?
 
@@ -39,7 +39,7 @@ Documentation is available at [http://docs.meteor.com/](http://docs.meteor.com/)
 
 # What's included in these images?
 
-[Meteor](https://www.meteor.com/) and a [small shim](https://github.com/DanielDent/docker-meteor/blob/master/latest/vboxsf-shim.sh) that
+[Meteor](https://www.meteor.com/) and a [small shim](https://github.com/tcheredeev/docker-meteor/blob/master/latest/vboxsf-shim.sh) that
 addresses a compatibility issue with boot2docker.
 
 A fork of [demeteorizer](https://github.com/DanielDent/demeteorizer) with a patch for Dockerfile support remains
@@ -125,12 +125,14 @@ application as runtime environment variables](http://12factor.net/config).
 
 # Issues, Contributing
 
-If you run into any problems with these images, please check for issues on [GitHub](https://github.com/DanielDent/docker-meteor/issues).
+If you run into any problems with these images, please check for issues on [GitHub](https://github.com/tcheredeev/docker-meteor/issues).
 Please file a pull request or create a new issue for problems or potential improvements.
 
 # License
 
 Copyright 2014-2015 [Daniel Dent](https://www.danieldent.com/).
+
+Copyright 2020 [Igor Tcheredeev](https://voidozer.ru/).
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use these files except in compliance with the License.

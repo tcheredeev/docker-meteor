@@ -11,46 +11,4 @@
 +fi
  
  # Now, on to the actual installer!
- 
-@@ -55,7 +58,7 @@
-     echo "https://install.meteor.com/windows"
-     exit 1
- fi
--if [ "$UNAME" != "Linux" -a "$UNAME" != "Darwin" ] ; then
-+if [ "$UNAME" != "Linux" ] ; then
-     echo "Sorry, this OS is not supported yet via this installer."
-     echo "For more details on supported platforms, see https://www.meteor.com/install"
-     exit 1
-@@ -88,8 +91,10 @@
-   LINUX_ARCH=$(uname -m)
-   if [ "${LINUX_ARCH}" = "i686" ] ; then
-     PLATFORM="os.linux.x86_32"
-+    TARBALL_CHECKSUM="${METEOR_LINUX_X86_32_SHA256:-}"
-   elif [ "${LINUX_ARCH}" = "x86_64" ] ; then
-     PLATFORM="os.linux.x86_64"
-+    TARBALL_CHECKSUM="${METEOR_LINUX_X86_32_SHA256:-}"
-   else
-     echo "Unusable architecture: ${LINUX_ARCH}"
-     echo "Meteor only supports i686 and x86_64 for now."
-@@ -166,8 +171,19 @@
- do
-   ATTEMPTS=$((ATTEMPTS + 1))
- 
--  curl $VERBOSITY --fail --continue-at - \
--    "$TARBALL_URL" --output "$TARBALL_FILE"
-+INSTALLER_TARBALL=$(mktemp)
-+eval curl -L --progress-bar --fail "${TARBALL_URL_OVERRIDE:-$TARBALL_URL}" > $INSTALLER_TARBALL
-+# If we got passed an explicit version, then we also expect
-+# to be passed that version's checksums.
-+if [ "${METEOR_VERSION:-latest}" != "latest" ]; then
-+  if ! echo "$TARBALL_CHECKSUM $INSTALLER_TARBALL" | sha256sum -c; then
-+    rm -rf "${INSTALLER_TARBALL}"
-+    echo "Installer tarball checksum failed."
-+    exit 1
-+  fi
-+fi  
-+tar -xzf $INSTALLER_TARBALL -C "$INSTALL_TMPDIR" -o
-+rm -rf "${INSTALLER_TARBALL}"
- 
-   if [ $? -eq 0 ]
-   then
+
